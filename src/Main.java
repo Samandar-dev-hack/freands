@@ -8,8 +8,10 @@ public class Main {
         //bu manma shohruh
         ArrayList<Integer> arrayList=new ArrayList<>();
         for (int i=0;i<=100;i++){
-            arrayList.add(i);
+            if(i%5==0)
+             arrayList.add(i);
         }
         System.out.println(arrayList);
+
     }
 }
